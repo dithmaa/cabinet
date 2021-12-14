@@ -1,0 +1,63 @@
+.form {
+    max-width: 360px;
+    margin: 40px auto;
+    border: 1px solid rgb(221, 221, 221);
+    padding-bottom: 20px;
+    background-color: rgb(253, 253, 253);
+}
+.formTitle{
+    font-size: 16px;
+    color:rgb(58, 58, 58);
+    margin-bottom: 25px;    
+    border-bottom: 1px solid rgb(206, 206, 206);
+    padding: 20px 30px;
+    margin-top: 0;
+}
+.h2 {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+}
+.inputTitle{
+    font-size: 16px;
+    margin-bottom: 0;
+    color:rgb(58, 58, 58);
+    margin-top: 10px;
+}
+.form input {
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid rgb(221, 221, 221);
+}
+.formSignIn {
+    background-color: rgb(66, 193, 224);
+    color: #fff;
+    border: none;
+    border: 1px solid rgb(129, 129, 129);
+}
+.formInputs, .formButtons {
+    padding: 0 30px;
+}
+.formInputs input{
+    width: 100%;
+}
+.formCheckbox input{
+    margin-right: 10px;
+}
+.signupLink{
+    padding: 0 30px;
+    margin: 10px 0;
+    font-size: 14px;
+    color: rgb(66, 193, 224);
+    text-decoration: underline;
+}
+.signupLink:hover{
+    text-decoration: none;  
+}
+.formCheckbox, .formSignIn{
+    transition: .25s ease all;
+    cursor: pointer;
+}
+.formCheckbox:hover, .formSignIn:hover{
+    opacity: 0.4;
+}

@@ -1,0 +1,47 @@
+.avatar{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(207, 207, 207);
+    border-radius: 100px;
+    margin-right: 18px;
+    overflow: hidden;
+    position: relative;
+
+}
+.avatar img {
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.item {
+    padding: 10px 0;
+    margin: 5px 0;
+    color:rgb(78, 78, 78);
+}
+.itemButton{
+    background-color: rgb(12, 182, 49);
+    color: #fff;
+    padding: 10px 13px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .25s ease all;
+}
+.itemButton:hover{
+    opacity: 0.7;
+}
+
+.itemButton.danger{
+    background-color: rgb(216, 56, 56);
+}
+.item .name {
+    max-width: 60px;
+    width: 100%;
+    overflow: hidden;
+}
